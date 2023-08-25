@@ -5,8 +5,8 @@ import java.io.IOException;
 public class SerializationExample {
     public static void main(String[] args) {
         Person person = new Person();
-        person.setName("Roshan");
-        person.setAge(21);
+        person.setName("Prasanga");
+        person.setAge(20);
 
         try (FileOutputStream fileOut = new FileOutputStream("person.ser");
              ObjectOutputStream objectOut = new ObjectOutputStream(fileOut)) {
