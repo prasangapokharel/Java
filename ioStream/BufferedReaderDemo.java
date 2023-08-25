@@ -6,7 +6,7 @@ public class BufferedReaderDemo {
     public static void main(String[] args) {
         
         try (
-            FileReader fr = new FileReader("C:\\Users\\prasanga\\IdeaProjects\\java_programs\\src\\Output.txt");
+            FileReader fr = new FileReader("C:\\Users\\prasanga\\IdeaProjects\\java_programs\\src\\output.txt");
             BufferedReader br = new BufferedReader(fr)
         ) {
             char c[] = new char[20];
