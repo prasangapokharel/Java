@@ -9,7 +9,7 @@ public class ReadWriteIOstream {
             File inputFile = new File("myFile.txt");
             File outputFile = new File("CopyOfMyFile.txt");
 
-            // Check if the input file exists before proceeding
+           
             if (!inputFile.exists()) {
                 System.out.println("Input file does not exist.");
                 return;
@@ -18,7 +18,6 @@ public class ReadWriteIOstream {
             FileReader reader = new FileReader(inputFile);
             char[] chars = new char[(int) inputFile.length()];
 
-            // Reading data from the input file
             int bytesRead = reader.read(chars);
             reader.close();
 
@@ -27,7 +26,7 @@ public class ReadWriteIOstream {
                 return;
             }
 
-            // Writing data to the output file
+           
             FileWriter writer = new FileWriter(outputFile);
             writer.write(chars);
             writer.close();
