@@ -6,7 +6,7 @@ import java.io.IOException;
 public class ReadWriteIOstream {
     public static void main(String[] args) {
         try {
-            File inputFile = new File("myFile.txt");
+            File inputFile = new File("prasanga.txt");
             File outputFile = new File("CopyOfMyFile.txt");
 
            
